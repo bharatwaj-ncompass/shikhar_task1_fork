@@ -11,9 +11,22 @@
 - [x] At last switched to branch1 and popped the stash. (git stash pop)
 ---
 
-# Scene-2
+# Scene-3
 ---
-- [x] Made the changes to both text files and commited them.
-- [x] I got a *commit id* and I copied it.
-- [x] Later I switched to branch1 and merged the particular commit to current branch (git merge *commit id*)
+- [x] I made changes to both the text files.
+- [x] Then I commited and pushed the files.
+- [x] Then using the *commit id* I reverted the changes. (git revert *id*)
+- [x] Afterwards I changed my branch and typed *git reflog*.
+- [x] I took the *revert id* and using git cherry-pick *revert id* I made the chnages to branch1.
+- [x] At last I pushed it to remote repo.
+---
+
+# Scene-3
+---
+- [x] I made changes to both the text files.
+- [x] Then I commited and pushed the files.
+- [x] Then using the *commit id* I reverted the changes. (git revert *id*)
+- [x] Afterwards I changed my branch and typed *git reflog*.
+- [x] I took the *revert id* and using git cherry-pick *revert id* I made the chnages to branch1.
+- [x] At last I pushed it to remote repo.
 ---
